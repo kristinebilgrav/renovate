@@ -1,0 +1,1 @@
+vep  --custom /dataset/swegen/hg19/jointVCF/SweGen_joincalled.g.vcf.bgz,SWEGEN,vcf,exact,0,AF --af_1kg --cache --dir $VEP_CACHE --offline  -i $1 -o $1_VEP.vcf --vcf  --assembly GRCh38 --per_gene --format vcf --fork 2
